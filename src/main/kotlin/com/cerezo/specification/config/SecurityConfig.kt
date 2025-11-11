@@ -8,11 +8,12 @@ import org.springframework.security.web.SecurityFilterChain
 
 @Configuration
 class SecurityConfig {
-    @Bean
-    fun securityFilterChain(http: HttpSecurity): SecurityFilterChain =
-        http
-            .cors { }
-            .csrf { it.disable() }
-            .sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
-            .build()
+  @Bean
+  fun securityFilterChain(http: HttpSecurity): SecurityFilterChain =
+    http
+      .cors { }
+      .csrf { it.disable() }
+      .securityMatcher("/api/v1/**")
+      .sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
+      .build()
 }
