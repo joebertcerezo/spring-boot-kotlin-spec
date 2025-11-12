@@ -1,0 +1,3 @@
+ALTER TABLE tasks
+DROP COLUMN priority,
+ALTER COLUMN due_date TYPE TIMESTAMPTZ(6);
