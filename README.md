@@ -18,18 +18,18 @@ This project provides a pre-configured environment with essential dependencies a
 ## 📋 Table of Contents
 
 - [About](#about)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [License](#license)
-- [Support](#support)
-- [Acknowledgments](#acknowledgments)
+- [License](#-license)
+- [Support](#-support)
+- [Acknowledgments](#-acknowledgments)
 
 ## About
 
